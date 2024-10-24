@@ -6,4 +6,4 @@ async function vizualizarInformacoesGlobais() {
     console.log(dados);
 }
 
-VizualizarinformacoesGlobais()
+vizualizarInformacoesGlobais()
