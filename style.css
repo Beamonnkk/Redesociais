@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 :root{
-    --cor-de-fundo: #414b66;
+    --cor-de-fundo: #111a33;
     --cor-primaria: #405b96;
     --cor-secundaria: #49628f;
     --cor-do-texto: #ffffff;
@@ -47,6 +47,19 @@ nav a:hover {
     text-decoration: underline;
     transform: scale(0.8);
     transition: transform 0.1s;
+}
+.graficos-container{
+    margin: 5rem;
+}
+.graficos-container__texto{ 
+    font-size: 1.3rem;
+    text-align: center; 
+    padding: 2rem;
+    border: var(--cor-primaria) solid 2px;
+}
+span{
+    font-weight: bold;
+    color: var(--cor-secundaria)
 }
 footer{
     background-color: var(--cor-secundaria);
