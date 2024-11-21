@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+:root{
+    --cor-de-fundo: #111a33;
+    --cor-primaria: #405b96;
+    --cor-secundaria: #49628f;
+    --cor-do-texto: #ffffff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-do-texto);
+    font-family: "DM Serif Display", serif;
+}
+header{
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    padding: 3px;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 15px;
+}
+nav {
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 5px;
+
+}
+nav a {
+    text-decoration: none;
+   margin: 2rem;
+    color: #ffffff;
+}
+nav a:hover {
+    text-decoration: underline;
+    transform: scale(0.8);
+    transition: transform 0.1s;
+}
+.graficos-container{
+    margin: 5rem;
+}
+.graficos-container__texto{ 
+    font-size: 1.3rem;
+    text-align: center; 
+    padding: 2rem;
+    border: var(--cor-primaria) solid 2px;
+}
+span{
+    font-weight: bold;
+    color: var(--cor-secundaria)
+}
+footer{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-do-texto);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 15px; 
+    height: 3rem;
+    width: 100%;
+    display: flex;
+}
